@@ -6,7 +6,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Card, CardTitle } from "@/pages/ui/card";
+import { Card, CardTitle } from "@/compo/ui/card";
 import { useState } from "react";
 
 function CSR() {
