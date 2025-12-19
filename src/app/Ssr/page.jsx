@@ -7,7 +7,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Card, CardTitle } from "@/pages/ui/card";
 
 let result = [];
 
@@ -24,7 +23,7 @@ function Ssr() {
 
   return (
     <section>
-      {result
+      {/* {result
         ? result.map(({ id, title }) => {
             return (
               <Card key={id}>
@@ -32,7 +31,7 @@ function Ssr() {
               </Card>
             );
           })
-        : []}
+        : []} */}
       <div className="container max-w-[1400px] ml-auto mr-auto">
         <div className="text-[40px] text-center bg-blue-300 mt-4 rounded">
           <h2>
